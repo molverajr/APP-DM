@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971466906661",
+    "project_id": "app-fime",
+    "storage_bucket": "app-fime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971466906661:android:27f7be2dc886dd05abf3cc",
+        "android_client_info": {
+          "package_name": "com.example.firebaseloginkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971466906661-o5u250mef5qd1qptjpjc6nk9n5hakctc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfdtN5i0rCrPrKJLY2XnARaJMyw8O3ThQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971466906661-o5u250mef5qd1qptjpjc6nk9n5hakctc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
