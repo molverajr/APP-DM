@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Login Firebase Kotlin</string>
+    <string name="app_name">StringBall</string>
     <string name="title_active_login">Firebase Login</string>
     <string name="password">Contraseña</string>
     <string name="new_password">Nueva contraseña</string>
@@ -30,4 +30,9 @@
     <string name="title_delete_account">Eliminar cuenta</string>
     <string name="subtitle_delete_account">Por motivos de seguridad para eliminar tu cuenta por completo, debes de ingresar tu contraseña.</string>
     <string name="delete">Eliminar</string>
+    <string name="title_profile_account">Mi cuenta</string>
+    <string name="email_user_account">marcos@gmail.com</string>
+    <string name="link_sign_out_account">Cerrar sesion</string>
+    <string name="favorite">Favoritos</string>
+
 </resources>

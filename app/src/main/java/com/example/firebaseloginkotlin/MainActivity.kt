@@ -24,6 +24,10 @@ class MainActivity : AppCompatActivity() {
             signOut()
         }
 
+        binding.button.setOnClickListener{
+            signOut()
+        }
+
 
 
     }
