@@ -8,4 +8,16 @@
     <color name="black">#FF000000</color>
     <color name="black_500">#262626</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="color_azul1">#B9E6FF</color>
+    <color name="color_azul2">#5C95FF</color>
+    <color name="color_rosa">#FFA9A3</color>
+    <color name="color_rojo">#F87575</color>
+    <color name="ultimo_color">#7E6C9C</color>
+    <color name="gris">#808080</color>
+
+
+
+
+
+
 </resources>

@@ -4,18 +4,165 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_main"
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign Out"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="36dp"
+            android:text="StringBall"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
+
+        <RelativeLayout
+            android:layout_width="348dp"
+            android:layout_height="109dp"
+            android:background="@drawable/shadowmain"
+            android:padding="16dp"
+            app:circularflow_radiusInDP="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.173">
+
+                <ImageView
+                    android:id="@id/item_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    app:srcCompat="@drawable/imagenpat"></ImageView>
+
+                <Button
+                    android:id="@+id/botonpatrones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/item_image"
+                    android:layout_toRightOf="@+id/item_image"
+                    android:backgroundTint="@color/color_rojo"
+                    android:text="Patrones Básicos"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></Button>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="348dp"
+            android:layout_height="109dp"
+            android:background="@drawable/shadowmain"
+            android:padding="16dp"
+            app:circularflow_radiusInDP="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.607">
+
+                <ImageView
+                    android:id="@id/item_image2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    app:srcCompat="@drawable/ic_user"></ImageView>
+
+                <Button
+                    android:id="@+id/botoncuenta"
+                    android:layout_width="181dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toEndOf="@+id/item_image2"
+                    android:layout_toRightOf="@+id/item_image2"
+                    android:backgroundTint="@color/color_rojo"
+                    android:text="Mi Cuenta"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></Button>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="348dp"
+            android:layout_height="109dp"
+            android:background="@drawable/shadowmain"
+            android:padding="16dp"
+            app:circularflow_radiusInDP="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.39">
+
+                <ImageView
+                    android:id="@id/item_image1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    app:srcCompat="@drawable/datos"></ImageView>
+
+                <Button
+                    android:id="@+id/botondatos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/item_image1"
+                    android:layout_toRightOf="@+id/item_image1"
+                    android:backgroundTint="@color/color_rojo"
+                    android:text="Datos Curiosos"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></Button>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="106dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="532dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/decoration1" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="99dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="192dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.821"
+            app:srcCompat="@drawable/decoration2"></ImageView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

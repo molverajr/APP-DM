@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/Ajo"
+    tools:context=".PatronesBasicosActivity">
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="415dp"
+        android:layout_height="70dp"
+        android:background="@color/color_rosa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/NombreVentana"
+        android:layout_width="196dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/NompreVentana"
+        android:text="@string/NompreVentana"
+        android:textAlignment="center"
+        android:textColor="#99E3FF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Pan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/Pan"
+        android:layout_width="241dp"
+        android:layout_height="133dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="364dp"
+        android:backgroundTint="@color/color_rojo"
+        android:contentDescription="@string/Pan"
+        android:text="@string/Pan"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/ImaPan"
+        android:layout_width="117dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="364dp"
+        android:contentDescription="@string/ImaPan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Pan"
+        app:layout_constraintHorizontal_bias="0.969"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_5cca9c10d436291e3eb1c144a0f4214"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/ImaLapiz"
+        android:layout_width="115dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/ImaLapiz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImaPan"
+        app:srcCompat="@drawable/_3c6b3eb23df59b1e06230e0b06e8609"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/ImaAjo"
+        android:layout_width="117dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/ImaAjo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImaLapiz"
+        app:srcCompat="@drawable/_5f4f6cde13e83ebd1f0715503d4caf0" />
+
+    <Button
+        android:id="@+id/Lapiz"
+        android:layout_width="243dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="180dp"
+        android:contentDescription="@string/Lapiz"
+        android:backgroundTint="@color/color_rojo"
+        android:text="@string/Lapiz"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Pan"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/Ajo"
+        android:layout_width="244dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/Ajo"
+        android:text="@string/Ajo"
+        android:textSize="30sp"
+        android:backgroundTint="@color/color_rojo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lapiz"
+        app:layout_constraintVertical_bias="0.111"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/Retorno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="352dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

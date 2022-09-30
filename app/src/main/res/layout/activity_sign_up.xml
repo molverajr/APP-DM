@@ -116,7 +116,7 @@
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:layout_marginTop="32dp"
-            android:background="@drawable/ic_buttom"
+            android:backgroundTint="@color/color_rojo"
             android:paddingLeft="64dp"
             android:paddingRight="64dp"
             android:text="@string/signup"
