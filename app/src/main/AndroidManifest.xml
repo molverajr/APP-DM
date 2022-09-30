@@ -17,6 +17,9 @@
             android:name=".UserAccount"
             android:exported="false" />
         <activity
+            android:name=".PatronesBasicosActivity"
+            android:exported="false" />
+        <activity
             android:name=".CuriousFactActivity"
             android:exported="false" />
         <activity
