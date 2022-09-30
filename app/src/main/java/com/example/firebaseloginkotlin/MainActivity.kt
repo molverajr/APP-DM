@@ -6,7 +6,6 @@ import com.example.firebaseloginkotlin.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import kotlin.math.sign
 import android.content.Intent as Intent
 
 class MainActivity : AppCompatActivity() {
@@ -15,25 +14,28 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        this.supportActionBar?.hide()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         // Initialize Firebase Auth
         auth = Firebase.auth
 
-        binding.button.setOnClickListener{
-            signOut()
+        binding.botoncuenta.setOnClickListener{
+            val intent = Intent(this, UserAccount::class.java)
+            startActivity(intent)
         }
 
-        binding.button.setOnClickListener{
-            signOut()
+        binding.botondatos.setOnClickListener{
+            val intent = Intent(this, CuriousFactActivity::class.java)
+            startActivity(intent)
         }
 
+        binding.botonpatrones.setOnClickListener{
+            val intent = Intent(this, PatronesBasicosActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }
-    private fun signOut(){
-        Firebase.auth.signOut()
-        val intent = Intent(this, SingInActivity::class.java)
-        startActivity(intent)
-    }
+
 }

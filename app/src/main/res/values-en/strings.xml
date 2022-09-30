@@ -30,4 +30,16 @@
     <string name="subtitle_delete_account">"For security reasons to delete your account completely, you must enter your password. "</string>
     <string name="delete">Delete</string>
     <string name="password">Password</string>
+    <string name="link_sign_out_account">Log Out</string>
+    <string name="favorite">Favorites</string>
+    <string name="title_profile_account">My account</string>
+    <string name="Ajo">Ajolote</string>
+    <string name="Pan">Dead Bread</string>
+    <string name="Lapiz">Pencil</string>
+    <string name="Retorno">Back</string>
+    <string name="patron">Pattern</string>
+    <string name="NompreVentana">Basic Patterns</string>
+    <string name="ImaLapiz">Pencil</string>
+    <string name="ImaAjo">Ajolote</string>
+    <string name="ImaPan">Dead Bread</string>
 </resources>

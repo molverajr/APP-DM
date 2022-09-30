@@ -31,8 +31,25 @@
     <string name="subtitle_delete_account">Por motivos de seguridad para eliminar tu cuenta por completo, debes de ingresar tu contraseña.</string>
     <string name="delete">Eliminar</string>
     <string name="title_profile_account">Mi cuenta</string>
-    <string name="email_user_account">marcos@gmail.com</string>
     <string name="link_sign_out_account">Cerrar sesion</string>
     <string name="favorite">Favoritos</string>
+    <string name="email_user_account" translatable="false">email_user_account</string>
+
+    <string name="Ajo">Ajolote</string>
+    <string name="ImaPan">Pan de Muerto</string>
+    <string name="NompreVentana">Patrones Básicos</string>
+    <string name="patron">Patron</string>
+    <string name="ImaLapiz">Lápiz</string>
+    <string name="ImaAjo">Ajolote</string>
+    <string name="Lapiz">Lápiz</string>
+    <string name="Retorno">Regresar</string>
+    <string name="Pan">Pan de Muerto</string>
+    <string name="TPan" translatable="false">Pan de Muerto</string>
+
+    <string name="TLapiz" translatable="false">Pan de Muerto</string>
+
+    <string name="TAjo" translatable="false">Pan de Muerto</string>
+
+
 
 </resources>
