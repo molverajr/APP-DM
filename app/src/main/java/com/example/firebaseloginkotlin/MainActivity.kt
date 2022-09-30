@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         this.supportActionBar?.hide()
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -29,13 +30,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, CuriousFactActivity::class.java)
             startActivity(intent)
         }
-
+        
         binding.botonpatrones.setOnClickListener{
             val intent = Intent(this, PatronesBasicosActivity::class.java)
             startActivity(intent)
         }
-
-
+        
+        
     }
 
 }
