@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.firebaseloginkotlin">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,25 +16,33 @@
         android:theme="@style/Theme.FirebaseLoginKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".UserAccount"
+            android:name=".TestActivity"
             android:exported="false" />
         <activity
-            android:name=".PatronesBasicosActivity"
+            android:name=".activities.VideosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_videos"
+            android:theme="@style/Theme.FirebaseLoginKotlin.NoActionBar" />
+        <activity
+            android:name=".activities.UserAccount"
             android:exported="false" />
         <activity
-            android:name=".CuriousFactActivity"
+            android:name=".activities.PatronesBasicosActivity"
             android:exported="false" />
         <activity
-            android:name=".CheckEmailActivity"
+            android:name=".activities.CuriousFactActivity"
             android:exported="false" />
         <activity
-            android:name=".SingUpActivity"
+            android:name=".activities.CheckEmailActivity"
             android:exported="false" />
         <activity
-            android:name=".SingInActivity"
+            android:name=".activities.SingUpActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.SingInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>

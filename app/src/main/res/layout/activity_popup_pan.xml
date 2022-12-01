@@ -6,7 +6,7 @@
     android:id="@+id/viewbar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PopupPanActivity">
+    tools:context=".activities.PopupPanActivity">
 
     <View
         android:id="@+id/view3"

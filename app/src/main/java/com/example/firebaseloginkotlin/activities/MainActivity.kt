@@ -1,8 +1,10 @@
-package com.example.firebaseloginkotlin
+package com.example.firebaseloginkotlin.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.firebaseloginkotlin.R
 import com.example.firebaseloginkotlin.databinding.ActivityMainBinding
+import com.example.firebaseloginkotlin.ui.ui.main.VideosFragment
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -35,6 +37,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PatronesBasicosActivity::class.java)
             startActivity(intent)
         }
+
+        binding.botonVideos.setOnClickListener {
+            val intent = Intent(this, VideosActivity::class.java)
+            startActivity(intent)
+        }
+
+
         
         
     }

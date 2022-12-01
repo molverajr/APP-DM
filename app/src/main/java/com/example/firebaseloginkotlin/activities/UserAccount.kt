@@ -1,9 +1,8 @@
-package com.example.firebaseloginkotlin
+package com.example.firebaseloginkotlin.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.firebaseloginkotlin.databinding.ActivityCuriousFactBinding
 import com.example.firebaseloginkotlin.databinding.ActivityUserAccountBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -27,8 +26,6 @@ class UserAccount : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-
-
     }
     private fun signOut(){
         Firebase.auth.signOut()

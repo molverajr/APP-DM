@@ -1,4 +1,4 @@
-package com.example.firebaseloginkotlin
+package com.example.firebaseloginkotlin.activities
 
 import android.content.Intent as Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:contentDescription="@string/Ajo"
-    tools:context=".PatronesBasicosActivity">
+    tools:context=".activities.PatronesBasicosActivity">
 
     <View
         android:id="@+id/view12"
